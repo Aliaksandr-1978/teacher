@@ -1,0 +1,130 @@
+
+html {
+  font-size: 62.5%;  
+}
+body {
+  background-color: #181818;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #fff; 
+}
+.header__box {
+  max-width: 100rem;
+  max-height: 75px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header__logo { 
+  width: 55px;
+  height: 55px;
+  /* border-radius: 50%; */
+}
+.main {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding:3rem 0 8rem;
+  height: 500px;
+  margin-top: 10rem;
+}
+.container {
+  max-width: 100%;
+  height: auto;
+}
+.content__name {
+  font-style: italic;
+  margin-bottom: 3rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: auto;
+  margin: 1rem;
+}
+.wrapper-box {
+  width: 50%;
+}
+.wrapper__prof {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #f9d407;
+  /* text-align: center; */
+  margin-bottom: 2rem;
+}
+.wrapper__name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.wrapper__text {
+  /* padding: 3rem 0; */
+  margin: 3rem 0;
+  font-size: 1.2rem;
+  text-align: justify;
+  border-top: 1px solid #1C1C1C;
+  border-bottom: 1px solid #1C1C1C;
+}
+.wrapper__title {
+  text-indent: 25px
+}
+.wrapper__footer {
+  display: flex;
+  padding: 0 2rem;
+  text-align: center;
+}
+.btn {
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 1em 2.1em;
+ 
+
+  background: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5em;
+  text-decoration: none;
+
+  font-family: inherit;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #181818;
+  margin-bottom: 5rem;
+
+  transition: background-color .2s linear;
+}
+.btn--yellow {
+  background-color: #f9d407;
+  box-shadow: 0px 7px 17px -10px rgba(#f9d407, 0.3);
+  border-radius: 5px;
+  margin-left: 0.5%;
+}
+.btn--yellow:hover,
+.btn--yellow:focus {
+  background-color: darken(#f9d407, 5%);
+}
+.profile__avatar {
+  position: relative;
+  display: block;
+  width: 25rem;
+  height: 25rem;
+  margin: 0 auto 2rem;
+  border: 5px solid #FFFFFF;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+.post__title {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
